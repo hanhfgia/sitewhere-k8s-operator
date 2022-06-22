@@ -282,7 +282,7 @@ func renderDeploymentPodSpecEnvVars(swInstance *sitewhereiov1alpha4.SiteWhereIns
 			},
 			corev1.EnvVar{
 				Name:  "sitewhere.config.keycloak.service.name",
-				Value: "sitewhere-keycloak-http",
+				Value: "sitewhere-keycloak-headless",
 			},
 			corev1.EnvVar{
 				Name:  "sitewhere.config.keycloak.api.port",
